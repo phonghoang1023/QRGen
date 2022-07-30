@@ -1,3 +1,5 @@
+package com.example.qrscanner.utils;
+
 package net.glxn.qrgen.android;
 
 import android.graphics.Bitmap;
@@ -79,6 +81,10 @@ public class QRCode extends AbstractQRCode {
     public QRCode to(ImageType imageType) {
         this.imageType = imageType;
         return this;
+    }
+
+    public String getText() {
+        return text;
     }
 
     /**
