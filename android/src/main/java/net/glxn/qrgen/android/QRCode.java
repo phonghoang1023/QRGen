@@ -1,5 +1,3 @@
-package com.example.qrscanner.utils;
-
 package net.glxn.qrgen.android;
 
 import android.graphics.Bitmap;
